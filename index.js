@@ -9,3 +9,7 @@ function nestedTarget() {
 }
 
 /*Define a function increaseRankBy(n) that increases the ranks in all of the .ranked-lists by n. (You might need to make use of parseInt()*/
+function increaseRankBy(n) {
+  
+}
+
