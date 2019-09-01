@@ -24,7 +24,7 @@ function deepestChild() {
   for (var i = 0; i < masterDiv.length; i++) { // iterate through
   if (masterDiv[i].textContent == "boo!") { // check for boo!
     return masterDiv[i];
-    break;
+    
   }
 }
 }
