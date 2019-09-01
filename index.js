@@ -21,4 +21,10 @@ function increaseRankBy(n) {
 function deepestChild() {
   let grandNode = document.getElementById('grand-node');
   let masterDiv = grandNode.querySelector('div');
+  for (var i = 0; i < masterDiv.length; i++) { // iterate through
+  if (aTags[i].textContent == searchText) {
+    found = aTags[i];
+    break;
+  }
+}
 }
