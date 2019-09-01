@@ -23,7 +23,7 @@ function deepestChild() {
   let masterDiv = grandNode.querySelector('div');
   for (var i = 0; i < masterDiv.length; i++) { // iterate through
   if (masterDiv[i].textContent == "boo!") { // check for boo!
-    found = aTags[i];
+    return masterDiv[i];
     break;
   }
 }
