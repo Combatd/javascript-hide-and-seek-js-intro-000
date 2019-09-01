@@ -22,7 +22,7 @@ function deepestChild() {
   let grandNode = document.getElementById('grand-node');
   let masterDiv = grandNode.querySelector('div');
   for (var i = 0; i < masterDiv.length; i++) { // iterate through
-  if (masterDiv[i].textContent == "boo!åå") { // check for boo!
+  if (masterDiv[i].textContent == "boo!") { // check for boo!
     found = aTags[i];
     break;
   }
